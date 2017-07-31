@@ -3,6 +3,13 @@ html,body {
     overflow-x: hidden;
 }
 
+.nav-elements {
+    padding-right: 15px;
+    padding-top: 30px;
+    font-family: BrandonBlack;
+    font-size: 25px;
+}
+
 .carousel,.item,.active {
     height:100%;
 }
@@ -52,11 +59,23 @@ html,body {
     margin-top: 40px;
 }
 
-#about-descript {
+#review-description {
     font-family: BrandonBlack;
     font-size: 35px;
     color: #262626;
     margin-top: 40px;
+}
+
+.Reviews {
+    padding-right: 15px;
+    padding-top: 30px;
+    font-family: BrandonBlack;
+    font-size: 25px;
+    height: 25%;
+}
+
+.review_person {
+    float: right;
 }
 
 nav {
@@ -72,8 +91,10 @@ video {
 }
 
 .navbar {
+    background-color: white;
     border-bottom: 1px solid white;
     width: 100%;
+    height: 12%;
 }
 
 .navbar-brand {
@@ -81,6 +102,11 @@ video {
     color: #EBEBEB;
     font-family: BrandonBlack;
     font-weight: 15;
+}
+
+#navbar-image {
+    width: 250px;
+    height: auto;
 }
 
 .navbar-brand:hover {
@@ -91,33 +117,7 @@ video {
     margin-right: 30px;
 }
 
-#PortfolioTitle {
-    padding-top: 35px;
-    padding-bottom: 35px;
-    font-family: BrandonBold;
-    font-size: 35px;
-    color: white;
-}
-
-#SkillsTitle {
-    font-family: BrandonBold;
-    font-size: 35px;
-    color: #262626;
-}
-
-#sruthi-picture {
-    background-image: url(Images/FaceShot.png);
-    width: 260px;
-    height: 260px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 200px;
-    margin: auto;
-    text-align: center;
-}
-
 #ContactTitle {
-<<<<<<< HEAD
     font-family: BrandonBlack;
     font-size: 125px;
     text-transform: uppercase;
@@ -125,24 +125,11 @@ video {
     font-weight: 400;
     letter-spacing: 8px;
     line-height: 1.5;
-=======
     font-family: BrandonBold;
     font-size: 35px;
->>>>>>> 75a6c4c76fd8360ddb8fcc230bf4f014c6d9443c
     color: white;
-    margin-top: 5%;
+    margin-top: 3%;
 }
-
-<<<<<<< HEAD
-=======
-#amsaText {
-    color: white;
-    font-size: 35px;
-    font-family: BrandonMedium;
-    margin-top: 200px;
-}
-
->>>>>>> 75a6c4c76fd8360ddb8fcc230bf4f014c6d9443c
 .vcenter {
     display: inline-block;
     vertical-align: middle;
@@ -154,81 +141,24 @@ video {
     font-family: BrandonRegular;
 }
 
-.portfolioIcon {
-    color: white;
-}
-
-<<<<<<< HEAD
-=======
 .social {
     color: white;
     font-size: 50px;
     text-align: center;
 }
-
->>>>>>> 75a6c4c76fd8360ddb8fcc230bf4f014c6d9443c
 .center {
     text-align: center;
     margin: auto;
 }
 
-.PortfolioText {
-    color: #262626;
-    font-size: 16px;
-    font-family: BrandonRegular;
-}
-
 .Contact {
-<<<<<<< HEAD
-    height: 100%;
-    background-image: url(Images/ContactBackgroundImage.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
+    height: 70%;
     text-align: center;
-=======
     background-color: #003554;
-    height: 35%;
->>>>>>> 75a6c4c76fd8360ddb8fcc230bf4f014c6d9443c
-}
-
-.PortfolioTextTitle {
-    color: #262626;
-    font-size: 16px;
-    font-family: BrandonMedium;
 }
 
 .btn {
     border-radius: 28px;
-}
-
-.PortfolioTextHeader {
-    color: #262626;
-    font-size: 35px;
-    font-family: BrandonMedium;
-}
-
-.PortfolioBodyText {
-    color: #262626;
-    font-size: 25px;
-    font-family: BrandonMedium;
-}
-
-<<<<<<< HEAD
-=======
-.AMSA {
-    background-image: url(Images/AMSA.PNG);
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 75%;
-    text-align: center;
-}
-
->>>>>>> 75a6c4c76fd8360ddb8fcc230bf4f014c6d9443c
-.portfolioImage {
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    margin: auto;
 }
 
 @font-face {
@@ -251,116 +181,16 @@ video {
     src: url("fonts/brandon_reg-webfont.woff") format('woff');
 }
 
-/*This is for the Portfolio Div*/
-
-.Portfolio {
-    background-color: #262626;
+.contact_details {
+    color: white;
+    font-family: BrandonBold;
+    font-size: 25px;
 }
 
-.img-portfolio {
-    margin: 0 auto;
-    /*opacity: 0.7;*/
+.contact_text {
+    margin-top: 8%;
 }
 
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.portfolio-box {
-    display: block;
-    position: relative;
-    margin: 15px 0 15px 0;
-    max-width: 650px;
-}
-
-.portfolio-box .portfolio-box-caption {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    color: #fff;
-    opacity: 0;
-    background: #262626;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    padding: 0 15px;
-    font-family: BrandonBlack, sans-serif;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 300;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px;
-}
-
-.portfolio-box:hover .portfolio-box-caption {
-    opacity: 0.8;
-}
-
-.imagetext {
-  color: white;
-  font-size: 50px;
-  position:absolute;
-  top: 40%;
-  left: 0;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  font-family: BrandonBlack;
-}
-<<<<<<< HEAD
-
-
-/*GROW*/
-.grow img {
-    width: 150px;
-  height: 150px;
-  opacity: 0.7; 
-
-
-  -webkit-transition: width 1s, height 1s, margin 1s;
-    -moz-transition: width 1s, height 1s, margin 1s;
-    -ms-transition: width 1s, height 1s, margin 1s;
-    transition: width 1s, height 1s, margin 1s;
-}
-
-.grow img:hover {
-  opacity: 1; 
-}
-
-#contact-diamond {
-    text-align: center;
-    background-image: url(Images/ContactCircle.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-}
 
 form {
  max-width: 600px;
@@ -408,5 +238,3 @@ textarea {
 .cf:after {
     clear: both;
 }
-=======
->>>>>>> 75a6c4c76fd8360ddb8fcc230bf4f014c6d9443c
