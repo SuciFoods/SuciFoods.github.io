@@ -5,16 +5,46 @@ html,body {
 
 .nav-elements {
     
-    padding-top: 30px;
+    padding-top: 25px;
+
     font-family: BrandonMedium;
     font-size: 20px;
 }
 
 #nav-element {
-    padding-top: 40px;
-    padding-right: 15px;
+    padding-top: 5%;
     font-family: BrandonBlack;
     text-decoration: bold;
+    background-color: #003554;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 34px;
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    height: 12%;
+}
+
+.navbar-brand {
+    font-size: 13px;
+    color: #EBEBEB;
+    font-family: BrandonBlack;
+    font-weight: 15;
+}
+
+#navbar-image {
+    width: 250px;
+    height: auto;
+}
+
+.navbar-brand:hover {
+    color: #FBFBFB;
+}
+
+.nav-elements {
+    margin-right: 30px;
 }
 
 #nav-element:hover {
@@ -112,11 +142,6 @@ html,body {
     float: right;
 }
 
-nav {
-    text-transform: uppercase;
-    border-bottom: 10px solid #EBEBEB;
-}
-
 video {
     min-width: 100%;
     min-height: 100%;
@@ -124,32 +149,7 @@ video {
     height: auto;
 }
 
-.navbar {
-    background-color: white;
-    border-bottom: 1px solid white;
-    width: 100%;
-    height: 12%;
-}
 
-.navbar-brand {
-    font-size: 13px;
-    color: #EBEBEB;
-    font-family: BrandonBlack;
-    font-weight: 15;
-}
-
-#navbar-image {
-    width: 250px;
-    height: auto;
-}
-
-.navbar-brand:hover {
-    color: #FBFBFB;
-}
-
-.nav-elements {
-    margin-right: 30px;
-}
 
 #ContactTitle {
     font-family: BrandonBlack;
