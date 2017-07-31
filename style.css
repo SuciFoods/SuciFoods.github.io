@@ -1,0 +1,412 @@
+html,body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.carousel,.item,.active {
+    height:100%;
+}
+
+.carousel-inner{
+    height:100%;
+}
+
+#carousel-example-generic {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner img{
+    width: 100%;
+}
+
+.carousel-inner h1{
+    font-family: BrandonBlack;
+    font-size: 125px;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
+    font-weight: 400;
+    letter-spacing: 8px;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+
+#Intro {
+    font-family: BrandonBlack;
+    font-size: 75px;
+    color: #262626;
+    margin-top: 40px;
+}
+
+#Subtitle {
+    font-family: BrandonBlack;
+    font-size: 50px;
+    color: #262626;
+    margin-top: 40px;
+}
+
+#about-descript {
+    font-family: BrandonBlack;
+    font-size: 35px;
+    color: #262626;
+    margin-top: 40px;
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 10px solid #EBEBEB;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.navbar {
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 13px;
+    color: #EBEBEB;
+    font-family: BrandonBlack;
+    font-weight: 15;
+}
+
+.navbar-brand:hover {
+    color: #FBFBFB;
+}
+
+.nav-elements {
+    margin-right: 30px;
+}
+
+#PortfolioTitle {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: BrandonBold;
+    font-size: 35px;
+    color: white;
+}
+
+#SkillsTitle {
+    font-family: BrandonBold;
+    font-size: 35px;
+    color: #262626;
+}
+
+#sruthi-picture {
+    background-image: url(Images/FaceShot.png);
+    width: 260px;
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+#ContactTitle {
+<<<<<<< HEAD
+    font-family: BrandonBlack;
+    font-size: 125px;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
+    font-weight: 400;
+    letter-spacing: 8px;
+    line-height: 1.5;
+=======
+    font-family: BrandonBold;
+    font-size: 35px;
+>>>>>>> 75a6c4c76fd8360ddb8fcc230bf4f014c6d9443c
+    color: white;
+    margin-top: 5%;
+}
+
+<<<<<<< HEAD
+=======
+#amsaText {
+    color: white;
+    font-size: 35px;
+    font-family: BrandonMedium;
+    margin-top: 200px;
+}
+
+>>>>>>> 75a6c4c76fd8360ddb8fcc230bf4f014c6d9443c
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#mailText {
+    color: white;
+    font-size: 17.5px;
+    font-family: BrandonRegular;
+}
+
+.portfolioIcon {
+    color: white;
+}
+
+<<<<<<< HEAD
+=======
+.social {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+>>>>>>> 75a6c4c76fd8360ddb8fcc230bf4f014c6d9443c
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.PortfolioText {
+    color: #262626;
+    font-size: 16px;
+    font-family: BrandonRegular;
+}
+
+.Contact {
+<<<<<<< HEAD
+    height: 100%;
+    background-image: url(Images/ContactBackgroundImage.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+=======
+    background-color: #003554;
+    height: 35%;
+>>>>>>> 75a6c4c76fd8360ddb8fcc230bf4f014c6d9443c
+}
+
+.PortfolioTextTitle {
+    color: #262626;
+    font-size: 16px;
+    font-family: BrandonMedium;
+}
+
+.btn {
+    border-radius: 28px;
+}
+
+.PortfolioTextHeader {
+    color: #262626;
+    font-size: 35px;
+    font-family: BrandonMedium;
+}
+
+.PortfolioBodyText {
+    color: #262626;
+    font-size: 25px;
+    font-family: BrandonMedium;
+}
+
+<<<<<<< HEAD
+=======
+.AMSA {
+    background-image: url(Images/AMSA.PNG);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 75%;
+    text-align: center;
+}
+
+>>>>>>> 75a6c4c76fd8360ddb8fcc230bf4f014c6d9443c
+.portfolioImage {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+@font-face {
+    font-family: "BrandonBlack";
+    src: url("fonts/brandon_blk-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "BrandonBold";
+    src: url("fonts/brandon_bld-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "BrandonMedium";
+    src: url("fonts/brandon_med-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "BrandonRegular";
+    src: url("fonts/brandon_reg-webfont.woff") format('woff');
+}
+
+/*This is for the Portfolio Div*/
+
+.Portfolio {
+    background-color: #262626;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+    /*opacity: 0.7;*/
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 15px 0 15px 0;
+    max-width: 650px;
+}
+
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: #262626;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: BrandonBlack, sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 0.8;
+}
+
+.imagetext {
+  color: white;
+  font-size: 50px;
+  position:absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: BrandonBlack;
+}
+<<<<<<< HEAD
+
+
+/*GROW*/
+.grow img {
+    width: 150px;
+  height: 150px;
+  opacity: 0.7; 
+
+
+  -webkit-transition: width 1s, height 1s, margin 1s;
+    -moz-transition: width 1s, height 1s, margin 1s;
+    -ms-transition: width 1s, height 1s, margin 1s;
+    transition: width 1s, height 1s, margin 1s;
+}
+
+.grow img:hover {
+  opacity: 1; 
+}
+
+#contact-diamond {
+    text-align: center;
+    background-image: url(Images/ContactCircle.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+form {
+ max-width: 600px;
+ text-align: center;
+}
+
+input, textarea {
+   border:0; 
+   outline:0;
+   padding: 1em;
+   display: block;
+   width: 100%;
+   margin-top: 1em;
+   font-family: BrandonBlack;
+   box-shadow: 0 1px 1px rgba(black, 0.1);
+   resize: none;
+}
+
+input, textarea:focus {
+ box-shadow: 0 0px 2px rgba(#00AEB2, 1)!important;
+}
+
+#input-submit {
+    color: white;
+   cursor: pointer;
+   background-color: #00AEB2;
+}
+
+#input-submit:hover {
+ box-shadow: 0 1px 1px 1px rgba(#aaa, 0.6); 
+}
+
+textarea {
+  height: 126px;
+}
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+=======
+>>>>>>> 75a6c4c76fd8360ddb8fcc230bf4f014c6d9443c
