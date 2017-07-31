@@ -11,8 +11,13 @@ html,body {
 }
 
 #nav-element {
+    padding-top: 40px;
     padding-right: 15px;
     font-family: BrandonBlack;
+    text-decoration: bold;
+}
+
+#nav-element:hover {
     text-decoration: underline;
 }
 
