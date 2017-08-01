@@ -3,124 +3,104 @@ html,body {
     overflow-x: hidden;
 }
 
+/* Nav Bar CSS*/
+
 .nav-elements {
-    
-    padding-top: 25px;
-
     font-family: BrandonMedium;
-    font-size: 20px;
-}
-
-#nav-element {
-    padding-top: 5%;
-    font-family: BrandonBlack;
-    text-decoration: bold;
-    background-color: #003554;
-    color: white;
-    padding-left: 30px;
-    padding-bottom: 34px;
+    margin-right: 30px;
 }
 
 .navbar {
     background-color: white;
+    border: none;
+    margin-bottom: 0px;
     width: 100%;
-    height: 12%;
 }
 
-.navbar-brand {
-    font-size: 13px;
-    color: #EBEBEB;
-    font-family: BrandonBlack;
-    font-weight: 15;
+.navbar-fixed-top .nav {
+    padding: 15px 0;
 }
 
-#navbar-image {
-    width: 250px;
-    height: auto;
+@media (max-width: 767px) { 
+    .navbar-brand {
+        padding: 0;        
+    }
+
+    .navbar-brand img {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
 }
 
-.navbar-brand:hover {
-    color: #FBFBFB;
+
+/*Carousel CSS*/
+
+#myCarousel .item {
+    height: 667px;
 }
 
-.nav-elements {
-    margin-right: 30px;
-}
-
-#nav-element:hover {
-    text-decoration: underline;
-}
-
-.carousel,.item,.active {
-    height:100%;
-}
-
-.carousel-inner{
-    height:100%;
-}
-
-#myCarousel {
-    width: 100%;
-    height: 100%;
+.carousel-caption {
+    top: 0;
+    bottom: auto;
 }
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
 
-.carousel-inner {
+.carousel-inner img{
     width: 100%;
     height: 100%;
 }
 
-.carousel-inner img{
-    width: 100%;
-}
-
-.carousel-caption {
-    margin-bottom: 250px;
+.carousel-caption{
+    font-family: BrandonBlack;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
+    font-weight: 400;
+    letter-spacing: 8px;
+    line-height: 1.5;
 }
 
 .carousel-caption h1{
-    font-family: BrandonBlack;
     font-size: 45px;
-    color: white;
-    text-transform: uppercase;
-    display: block;
-    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
-    font-weight: 400;
-    letter-spacing: 8px;
-    line-height: 1.5;
 }
 
 .carousel-caption h2{
+    font-size: 25px;
+}
+
+/*Large Desktops*/
+
+@media (min-width: 1000px) { 
+    #myCarousel .item {
+        height: 667px;
+    }
+
+    .carousel-caption{
+        margin-top: 75px;
+    }
+}
+
+/*Smart Phones Landscape, Tablets Portrait*/
+
+@media (max-width: 768px) { 
+    #myCarousel .item {
+        height: 310px;
+    }
+
+    .carousel-caption{
+        margin-top: 55px;
+    }
+}
+
+/*Review Styles*/
+
+.Reviews {
+    padding: 15px;
     font-family: BrandonBlack;
     font-size: 25px;
-    color: white;
-    text-transform: uppercase;
-    display: block;
-    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
-    font-weight: 400;
-    letter-spacing: 8px;
-    line-height: 1.5;
-}
-
-.btn.btn-square {
-  border-radius: 1;
-}
-
-#Intro {
-    font-family: BrandonBlack;
-    font-size: 75px;
-    color: #262626;
-    margin-top: 40px;
-}
-
-#Subtitle {
-    font-family: BrandonBlack;
-    font-size: 50px;
-    color: #262626;
-    margin-top: 40px;
 }
 
 #review-description {
@@ -130,70 +110,74 @@ html,body {
     margin-top: 40px;
 }
 
-.Reviews {
-    padding-right: 15px;
-    padding-top: 30px;
-    font-family: BrandonBlack;
-    font-size: 25px;
-    height: 25%;
-}
-
 .review_person {
     float: right;
 }
 
-video {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+#about_us_reviews {
+    margin-top: 75px;
 }
+
+/*Contact Styles*/
 
 
 
 #ContactTitle {
     font-family: BrandonBlack;
-    font-size: 125px;
+    font-size: 25px;
     text-transform: uppercase;
     text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
     font-weight: 400;
     letter-spacing: 8px;
     line-height: 1.5;
-    font-family: BrandonBold;
-    font-size: 35px;
     color: white;
     margin-top: 3%;
 }
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-}
 
-#mailText {
+#contactSubtitle {
+    font-family: BrandonMedium;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
+    font-weight: 400;
+    letter-spacing: 8px;
+    line-height: 1.5;
     color: white;
-    font-size: 17.5px;
-    font-family: BrandonRegular;
-}
 
-.social {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-}
-.center {
-    text-align: center;
-    margin: auto;
 }
 
 .Contact {
-    height: 70%;
     text-align: center;
     background-color: #003554;
 }
 
-.btn {
-    border-radius: 28px;
+.socialButton {
+    height: 64px;
+    width: 64px;
 }
+
+.contact_details {
+    color: white;
+    font-family: BrandonBold;
+    font-size: 25px;
+}
+
+/*Large Desktops*/
+
+@media (min-width: 1000px) { 
+    .contact_details {
+        font-size: 25px;
+    }
+}
+
+/*Smart Phones Landscape, Tablets Portrait*/
+
+@media (max-width: 768px) { 
+    .contact_details {
+        font-size: 12px;
+    }
+}
+/*Fonts*/
 
 @font-face {
     font-family: "BrandonBlack";
@@ -213,62 +197,4 @@ video {
 @font-face {
     font-family: "BrandonRegular";
     src: url("fonts/brandon_reg-webfont.woff") format('woff');
-}
-
-.contact_details {
-    color: white;
-    font-family: BrandonBold;
-    font-size: 25px;
-}
-
-.contact_text {
-    margin-top: 8%;
-}
-
-
-form {
- max-width: 600px;
- text-align: center;
-}
-
-input, textarea {
-   border:0; 
-   outline:0;
-   padding: 1em;
-   display: block;
-   width: 100%;
-   margin-top: 1em;
-   font-family: BrandonBlack;
-   box-shadow: 0 1px 1px rgba(black, 0.1);
-   resize: none;
-}
-
-input, textarea:focus {
- box-shadow: 0 0px 2px rgba(#00AEB2, 1)!important;
-}
-
-#input-submit {
-    color: white;
-   cursor: pointer;
-   background-color: #00AEB2;
-}
-
-#input-submit:hover {
- box-shadow: 0 1px 1px 1px rgba(#aaa, 0.6); 
-}
-
-textarea {
-  height: 126px;
-}
-
-
-/* Clearfix */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
 }
