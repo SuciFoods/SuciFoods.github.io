@@ -61,6 +61,7 @@ html,body {
     font-weight: 400;
     letter-spacing: 8px;
     line-height: 1.5;
+    margin-top: 75px;
 }
 
 .carousel-caption h1{
@@ -77,10 +78,6 @@ html,body {
     #myCarousel .item {
         height: 667px;
     }
-
-    .carousel-caption{
-        margin-top: 75px;
-    }
 }
 
 /*Smart Phones Landscape, Tablets Portrait*/
@@ -88,10 +85,6 @@ html,body {
 @media (max-width: 768px) { 
     #myCarousel .item {
         height: 310px;
-    }
-
-    .carousel-caption{
-        margin-top: 55px;
     }
 }
 
